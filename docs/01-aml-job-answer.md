@@ -47,6 +47,8 @@ az ml compute create --name myCompute --size Standard_DS3_v2 --type AmlCompute -
 
 ```
 
+- [Explore the CLI - Training | Microsoft Learn](https://learn.microsoft.com/en-gb/training/modules/explore-developer-tools-for-workspace-interaction/4-explore-cli)
+- [Azure CLI ERROR when add extensions: An error occurred. Pip failed with status code 1 - Microsoft Q&A](https://learn.microsoft.com/en-us/answers/questions/1455242/azure-cli-error-when-add-extensions-an-error-occur)
 
 Having a look in the Azure Portal we can see all the resources have been created successfully.
 
@@ -128,3 +130,4 @@ Stay tuned for part three of this blog series we’ll tackle Challange 2 and tri
 If you are interested in joining the challenge, you can find more information and instructions on the challenge website: [https://microsoftlearning.github.io/mslearn-mlops/](https://microsoftlearning.github.io/mslearn-mlops/)
 
 Happy learning and good luck! 🚀
+
