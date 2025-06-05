@@ -40,14 +40,26 @@ def split_data(df, test_size=0.2):
 
 def train_model(reg_rate, x_train, y_train):
     """Train a logistic regression model."""
-    LogisticRegression(C=1 / reg_rate, solver="liblinear").fit(x_train, y_train)
+    LogisticRegression(
+        C=1 / reg_rate,
+        solver="liblinear"
+    ).fit(x_train, y_train)
 
 
 def parse_args():
     """Parse command-line arguments."""
     parser = argparse.ArgumentParser()
-    parser.add_argument("--training_data", dest="training_data", type=str)
-    parser.add_argument("--reg_rate", dest="reg_rate", type=float, default=0.01)
+    parser.add_argument(
+        "--training_data",
+        dest="training_data",
+        type=str
+    )
+    parser.add_argument(
+        "--reg_rate",
+        dest="reg_rate",
+        type=float,
+        default=0.01
+    )
     return parser.parse_args()
 
 
