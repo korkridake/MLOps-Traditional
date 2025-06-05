@@ -1,6 +1,5 @@
 1| """Train a logistic regression model using data from CSV files."""
-2| 
-3| import argparse
+2| import argparse
 4| import glob
 5| import os
 6| import pandas as pd
