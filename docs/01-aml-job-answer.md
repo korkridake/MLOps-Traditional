@@ -49,6 +49,7 @@ az ml compute create --name myCompute --size Standard_DS3_v2 --type AmlCompute -
 
 - [Explore the CLI - Training | Microsoft Learn](https://learn.microsoft.com/en-gb/training/modules/explore-developer-tools-for-workspace-interaction/4-explore-cli)
 - [Azure CLI ERROR when add extensions: An error occurred. Pip failed with status code 1 - Microsoft Q&A](https://learn.microsoft.com/en-us/answers/questions/1455242/azure-cli-error-when-add-extensions-an-error-occur)
+- [az ml compute | Microsoft Learn](https://learn.microsoft.com/en-us/cli/azure/ml/compute?view=azure-cli-latest)
 
 Having a look in the Azure Portal we can see all the resources have been created successfully.
 

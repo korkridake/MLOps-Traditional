@@ -18,6 +18,8 @@
 
 ### Symptoms
 
+To be added
+
 ### Cause
 
 The conflict is caused by:
@@ -33,3 +35,20 @@ To fix this you could try to:
 1. Loosen the range of package versions you've specified
 2. Remove package versions to allow pip to attempt to solve the dependency conflict
 3. [[BUG] Security Vulnerability · Issue #10413 · mlflow/mlflow](https://github.com/mlflow/mlflow/issues/10413)
+
+## Storage Account Doesn't Permit Key-Based Authentication
+
+### Symptoms
+
+Met error <class 'Exception'>:KeyBasedAuthenticationNotPermitted
+Operation returned an invalid status 'Key based authentication is not permitted on this storage account.'
+This SAS token is derived from an account key, but key-based authentication is not permitted for this storage account. To update workspace properties, please see the documentation: https://review.learn.microsoft.com/azure/machine-learning/how-to-disable-local-auth-storage?view=azureml-api-2&branch=pr-en-us-278974&tabs=cli#update-an-existing-workspace
+Please check log by running the command with '--debug' for more details.
+
+### Cause
+
+To be added
+
+### Resolution
+
+To be added
