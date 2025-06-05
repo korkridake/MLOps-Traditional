@@ -32,11 +32,14 @@ def get_csvs_df(path):
     return pd.concat((pd.read_csv(f) for f in csv_files), sort=False) 
  
 # our new function
-def split_data(df, test_size=0.2): 
-    X = df.drop("Diabetic", axis=1) 
-    y = df["Diabetic"] 
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size) 
-    return X_train, X_test, y_train, y_test 
+def split_data(df, test_size=0.2):
+    # split data into train and test sets
+    X = df.drop("Diabetic", axis=1)
+    y = df["Diabetic"]
+    X_train, X_test, y_train, y_test = train_test_split(
+        #new line
+        X, y, test_size=test_size)
+    return X_train, X_test, y_train, y_test
  
 def train_model(reg_rate, X_train, X_test, y_train, y_test): 
     # train model 
