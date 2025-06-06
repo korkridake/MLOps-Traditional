@@ -15,3 +15,5 @@ The solution accelerator goals are:
 - Enterprise readiness
 
 It accomplishes these goals with a template-based approach for end-to-end data science, driving operational efficiency at each stage. You should be able to get up and running with the solution accelerator in a few hours.
+
+Hello World! 
