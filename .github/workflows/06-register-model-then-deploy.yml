@@ -71,4 +71,4 @@ jobs:
           tenant-id: ${{ secrets.AZURE_TENANT_ID }}
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
       - name: Trigger Azure ML job
-        run:  az ml online-deployment create -f src/deploy-endpoint.yml --all-traffic --workspace-name ${{ env.workspace-name }} --resource-group ${{ env.resource-group }}
+        run:  az ml online-deployment create -f src/deploy-endpoint.yml --all-traffic --workspace-name ${{ env.workspace-name }} --resource-group ${{ env.resource-group }} --location australiaeast
