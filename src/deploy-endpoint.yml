@@ -1,6 +1,6 @@
 $schema: https://azuremlschemas.azureedge.net/latest/managedOnlineDeployment.schema.json
-name: mlflow-deployment-diabetes
-endpoint_name: mlflow-endpoint-diabetes # Name of the endpoint to deploy the model to
+name: mlflow-deploy-diabetes-02
+endpoint_name: mlflow-endpoint-diabetes-02 # Name of the endpoint to deploy the model to
 model: azureml:ml-class-model:1
 instance_type: Standard_D4a_v4
 instance_count: 1
