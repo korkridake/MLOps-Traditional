@@ -46,3 +46,5 @@ We recommend the following steps in your CI process:
 ## Iterative-Incremental Process in MLOps
 
 ![Iterative-Incremental Process in MLOps](media\Iterative-Incremental-Process-in-MLOps.jpg)
+
+![MLOps CI/CD](media\MLOps-Phases.jpg)
