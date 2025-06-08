@@ -7,6 +7,7 @@ Welcome to the Practical MLOps with GitHub Actions repository! This project is i
   - [MLOps Best Practices](#mlops-best-practices)
     - [Train Model](#train-model)
     - [Operationalize Model](#operationalize-model)
+  - [Iterative-Incremental Process in MLOps](#iterative-incremental-process-in-mlops)
 
 ## Project overview
 
@@ -41,3 +42,7 @@ We recommend the following steps in your CI process:
 - You can define a **release definition** in Azure Pipelines to help coordinate a release. Using the DevOps extension for Machine Learning, you can include artifacts from Azure ML, Azure Repos, and GitHub as part of your Release Pipeline.
 - In your release definition, you can leverage the Azure ML CLI's **model deploy** command to deploy your Azure ML model to the cloud (ACI or AKS).
 - Define your deployment as a [gated release](https://docs.microsoft.com/en-us/azure/devops/pipelines/release/approvals/gates?view=azure-devops). This means that once the model web service deployment in the Staging/QA environment is successful, a notification is sent to approvers to manually review and approve the release. Once the release is approved, the model scoring web service is deployed to [Azure Kubernetes Service(AKS)](https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes) and the deployment is tested.
+
+## Iterative-Incremental Process in MLOps
+
+![Iterative-Incremental Process in MLOps](media\Iterative-Incremental-Process-in-MLOps.jpg)
